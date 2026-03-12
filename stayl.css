@@ -4,6 +4,7 @@
 
 body {
   overflow-x: hidden;
+  background-color: antiquewhite;
 }
 
 .all {
@@ -91,7 +92,7 @@ body {
   justify-content: center;
 }
 .cekshin2 .chaps2 {
-  margin-top: 100px;
+  margin-top: 80px;
   margin-right: 50px;
   margin-left: 80px;
 }
@@ -113,6 +114,7 @@ body {
   margin: 10px;
   padding: 20px;
   border-radius: 20px;
+  background-color: aliceblue;
   border: 1px solid rgb(134, 134, 134);
 }
 .cekshin2 .rosts3 h3 {
@@ -170,7 +172,33 @@ body {
   border: 1px solid rgb(170, 170, 170);
   border-radius: 20px;
   padding: 20px;
+  background-color: aliceblue;
 }
 .cekshion4 .chapcc4 .chapc4 p {
   margin: 10px 0px;
+}
+
+.chapcc5 {
+  background-color: aliceblue;
+  margin-top: 50px;
+  display: flex;
+  padding: 30px 100px;
+  justify-content: center;
+}
+.chapcc5 .chaps5 {
+  margin-right: 50px;
+}
+.chapcc5 .chaps5 h1 {
+  font-size: 40px;
+  margin-top: 35px;
+}
+.chapcc5 .chaps5 .b1 {
+  margin: 20px 0px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  background: #094B72;
+  color: aliceblue;
+  display: flex;
+  align-items: center;
 }/*# sourceMappingURL=stayl.css.map */

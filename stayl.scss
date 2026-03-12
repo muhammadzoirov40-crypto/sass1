@@ -4,6 +4,7 @@
 
 body {
     overflow-x: hidden;
+    background-color: antiquewhite;
 }
 
 @mixin dfex {
@@ -114,7 +115,7 @@ body {
     justify-content: center;
 
     .chaps2 {
-        margin-top: 100px;
+        margin-top: 80px;
         margin-right: 50px;
         margin-left: 80px;
 
@@ -141,6 +142,8 @@ body {
         margin: 10px;
         padding: 20px;
         border-radius: 20px;
+        background-color: aliceblue;
+
         border: 1px solid rgb(134, 134, 134);
 
         h3 {
@@ -179,7 +182,8 @@ body {
         }
     }
 }
-.hass1{
+
+.hass1 {
     text-align: center;
     margin-top: 30px;
 }
@@ -190,21 +194,24 @@ body {
     width: 80%;
     gap: 30px;
     margin-left: 100px;
-    
+
     .sur {
         display: flex;
         align-items: center;
         justify-content: center;
-        img{
+
+        img {
             margin-right: 10px;
         }
     }
-    
+
     .chapcc4 {
         margin-top: 30px;
         border: 1px solid rgb(170, 170, 170);
         border-radius: 20px;
         padding: 20px;
+        background-color: aliceblue;
+
 
         .chapc4 {
             p {
@@ -212,6 +219,27 @@ body {
             }
         }
     }
+    
+    
+}
+.chapcc5{
+    background-color: aliceblue;
+    margin-top: 50px;
+    display: flex;
+    padding: 30px 100px;
+    justify-content: center;
+    .chaps5{
+        margin-right: 50px;
+        h1{
+            font-size: 40px;
+            margin-top: 35px
+        }
+        .b1{
+            @include button;
+            display: flex;
+            align-items: center;
 
 
+        }
+    }
 }
