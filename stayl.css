@@ -143,4 +143,34 @@ body {
 }
 .cektion3 .boxc11 img {
   margin: 10px 40px;
+}
+
+.hass1 {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.cekshion4 {
+  display: flex;
+  text-align: center;
+  width: 80%;
+  gap: 30px;
+  margin-left: 100px;
+}
+.cekshion4 .sur {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cekshion4 .sur img {
+  margin-right: 10px;
+}
+.cekshion4 .chapcc4 {
+  margin-top: 30px;
+  border: 1px solid rgb(170, 170, 170);
+  border-radius: 20px;
+  padding: 20px;
+}
+.cekshion4 .chapcc4 .chapc4 p {
+  margin: 10px 0px;
 }/*# sourceMappingURL=stayl.css.map */
