@@ -1,0 +1,94 @@
+* {
+    margin: 0px;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+@mixin dfex {
+    display: flex;
+}
+
+@mixin button {
+    margin: 20px 0px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    background: #094B72;
+    color: aliceblue;
+
+}
+
+
+
+.all {
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.all,
+.box1,
+.secti1 {
+    @include dfex;
+    padding: 10px 50px;
+
+    .box1 p {
+        margin: 0px 10px;
+    }
+}
+.pa1{
+    background-color: #094B72;
+    padding: 5px 10px;
+    border-radius: 20px;
+
+}
+
+.secti1 {
+    .chap2{
+        display: flex;
+        background-color: #8ac4e5;
+        padding: 10px 2px;
+        border: none;
+        align-items: center;
+        border-radius: 20px;
+        p{
+            margin: 0px 5px;
+        }
+    }
+    .chap1 {
+        margin-left: 10%;
+        width: 80%;
+    }
+
+    h1 {
+        font-size: 45px;
+        margin: 10px 0px;
+    }
+
+    .chap1 {
+        margin-top: 150px;
+        width: 40%
+        
+        
+    }
+
+    button {
+        @include button;
+        margin-top: 40px;
+
+    }
+    .chap3{
+        width: 80%;
+        img{
+            margin: 10px;
+        }
+    } 
+
+}
+
+.rost1 img {
+    width: 70%;
+    margin-left: 100px;
+}
